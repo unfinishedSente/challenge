@@ -1,5 +1,3 @@
-//this is a test
-
 const fastify = require('fastify')({ logger: true, connectionTimeout: 5000 });
 const generateNewWorker = require('./utils/generateNewWorker');
 const requestTracker = require('./utils/requestTracker');
